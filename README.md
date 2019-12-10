@@ -9,7 +9,7 @@ Done by Jeffrey van Hees
 
 ### Installation
 Follow the following steps in your console:
-- Clone the repo to your locale machine
+- Clone the repo to your local machine
 - Run `composer install`
 - Run `npm install`
 - Run `npm run dev`
@@ -18,7 +18,7 @@ Follow the following steps in your console:
 - Run `php artisan serve`
 
 ### Testing
-You need phpunit installed on your locale machine for testing.
+You need phpunit installed on your local machine for testing.
 - Run `phpunit` in the console to run the tests
 
 ### Result
