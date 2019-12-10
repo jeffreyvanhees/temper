@@ -5,6 +5,7 @@ Done by Jeffrey van Hees
 - PHP 7.4
 - Composer
 - NPM
+- A beer 🍺
 
 ### Installation
 Follow the following steps in your console:
