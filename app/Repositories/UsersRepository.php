@@ -21,15 +21,13 @@ class UsersRepository implements UsersRepositoryInterface
     {
         $this->users = LazyCollection::make(
             function () {
-                $handle = fopen(storage_path('app/export.csv'), 'r');
+                $handle = fopen(storage_path('export.csv'), 'r');
                 while ($row = fgetcsv($handle, 0, ';')) {
                     yield $row;
                 }
-            }
-        )
+            })
             ->skip(1)
-            ->map(
-                function ($row) {
+            ->map(function ($row) {
                     return [
                         'created_at'            => Carbon::createFromFormat('Y-m-d', $row[1]),
                         'onboarding_percentage' => intval($row[2]),
