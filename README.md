@@ -20,3 +20,8 @@ Follow the following steps in your console:
 ### Testing
 You need phpunit installed on your locale machine for testing.
 - Run `phpunit` in the console to run the tests
+
+### Result
+You should see te following result after clicking on the "Click here to view the desired chart"-link:
+
+![Result](https://github.com/jeffreyvanhees/temper/raw/master/screenshot.png)
