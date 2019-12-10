@@ -13,6 +13,7 @@ Follow the following steps in your console:
 - Run `composer install`
 - Run `npm install`
 - Run `npm run dev`
+- Run `cp .env.example .env`
 - Run `php artisan key:generate`
 - Run `php artisan serve`
 
